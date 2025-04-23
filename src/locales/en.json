@@ -1,289 +1,289 @@
 {
-  "gameTitle": "Civolution",
+  "gameTitle": "文明演化",
   "home": {
-    "title": "Civolution Solo Helper",
-    "play1": "Play <a href='https://boardgamegeek.com/boardgame/400602/civolution' target='_blank' rel='noopener'><b>Civolution</b></a> against V.I.C.I, the artificial opponent.",
-    "play2": "This application replaces the solo card deck, manages the difficulty levels and guides you through the game and solo rule set.",
+    "title": "文明演化单人模式助手",
+    "play1": "游玩 <a href='https://boardgamegeek.com/boardgame/400602/civolution' target='_blank' rel='noopener'><b>文明演化</b></a> 对抗一个模拟竞争文明：维希",
+    "play2": "此应用程序取代了单人游戏卡组，管理难度级别，并引导您完成游戏和单人模式下的游戏设置。",
     "vici": {
-      "hello": "HELLO,<br/>I AM<br/>V.I.C.I!",
-      "about": "If you want to play Civolution by yourself, let us introduce you to V.I.C.I, an I-CIV entity with the purpose of simulating a rival civilization."
+      "hello": "您好,<br/>我是维希!<br/>",
+      "about": "如果您想要自己游玩《文明演化》，那么让我来向您介绍维希（V.I.C.I),一个模拟竞争文明，拥有自我意识的实体（I-CIV)。"
     },
-    "feedback": "Discussion and Feedback:"
+    "feedback": "讨论和反馈："
   },
   "setup": {
-    "title": "Setup Game",
+    "title": "游戏设置",
     "difficultyLevel": {
-      "title": "Difficulty Level",
-      "easy": "Easy",
-      "hard": "Hard"
+      "title": "难度等级",
+      "easy": "简单",
+      "hard": "困难"
     },
     "scoringTiles": {
-      "title": "Scoring Tiles",
-      "randomize": "Randomize",
-      "select": "Select",
-      "available": "Available:",
-      "selected": "Selected (3 x Final / 4 x Era):",
-      "none": "(none)"  
+      "title": "记分区",
+      "randomize": "随机",
+      "select": "选择",
+      "available": "可用计分板块:",
+      "selected": "已选择 (3 x 终局计分 / 4 x 时代积分):",
+      "none": "(尚未选择)"  
     },
     "randomMap": {
-      "title": "Continent",
-      "show": "Random Continent (optional)",
-      "firstPlay": "First Play",
-      "randomize": "Randomize"
+      "title": "游戏大陆",
+      "show": "随机大陆 (可选择)",
+      "firstPlay": "初次游戏",
+      "randomize": "随机"
     }
   },
   "setupBot": {
-    "title": "Setup V.I.C.I",
-    "provisionMarker": "Provision marker",
-    "placeDisks": "Choose a player color for V.I.C.I, take the 7 <b>discs</b> of that color and place one of them onto each of your discs on the game boards.",
-    "takeTribesMarkers": "Place 15 <b>tribes</b> (the remaining 5 are not used) and 50 <b>markers</b> of V.I.C.I’s color in V.I.C.I’s play area as a supply.",
-    "placeStartingTribes": "Place 1 of V.I.C.I’s tribes upright onto the remaining non-fire encampment in the <i>Forest starting territory</i> and 1 tribe upright onto the remaining non-fire encampment in the <i>Grassland starting territory</i>.",
-    "placeProvisionMarker": "Place a marker <b>lengthwise</b> in each of the two starting territories next to the farm building space. These markers do not represent raw materials but are called <i>provision markers</i>.",
-    "takeDice": "Place 6 <b>activation dice</b> and <b>1 fate die</b> in V.I.C.I’s play area.",
-    "diceNotice": "You do not roll them, they are used to count the number of V.I.C.I's dice.",
-    "noOtherComponents": "Other components are not used for V.I.C.I."
+    "title": "设置维希（V.I.C.I)",
+    "provisionMarker": "补给标记",
+    "placeDisks": "为维希选择一种玩家颜色，并拿取该颜色的 7 个<b>圆片</b> ，并在游戏版图上你的每个圆片顶部各放置一个。",
+    "takeTribesMarkers": "将维希颜色的 15 个<b>部落</b> (剩余 5 个不使用)和 50 个<b>标记 </b>构成供应堆。",
+    "placeStartingTribes": "将维希的 2 个部落，分别在<i>初始森林区域<i>和<i>初始草原区域<i>的<b>非篝火营地</b>上各站立放置 1 个。",
+    "placeProvisionMarker": "此外，在这两个初始区域的农场建造格旁，各<b>躺倒</b>放置 1 个标记，这些标记不是原材料，而被称为 <i>补给标记</i>。",
+    "takeDice": "在维希的游戏区放置 6 个<b>激活骰</b> 和 1 个<b>命运骰</b>。",
+    "diceNotice": "骰子仅用于计算维希所拥有的骰子数量，并不会使用到他们。",
+    "noOtherComponents": "维希不会使用上述以外的其他游戏配件。"
   },
   "roundStart": {
-    "title": "Era Start",
+    "title": "时代开始",
     "newCards": {
-      "title": "1) New Cards",
-      "noAction": "V.I.C.I does nothing."
+      "title": "阶段 1：新的卡牌",
+      "noAction": "如常进行。"
     },
     "newGoals": {
-      "title": "2) New goals",
-      "playerTakeGoal": "Take a goal chip (optional).",
-      "botDetermine": "Determine goal chip for V.I.C.I.",
-      "botTakeGoal": "Remove goal chip <b>{goalChip}</b> (if available).",
-      "botNoGoal": "No goal chip is removed."
+      "title": "阶段 2：新的目标",
+      "playerTakeGoal": "拿取一个目标芯片 (玩家可选操作)。",
+      "botDetermine": "为维希决“选择”一个目标芯片",
+      "botTakeGoal": "移除从上往下第 <b>{goalChip}</b> 格目标芯片(如果可行)。",
+      "botNoGoal": "没有目标芯片需要被移除。"
     },
     "extraFind": {
-      "title": "3) Extra find",
-      "noAction": "V.I.C.I makes no extra find."
+      "title": "阶段 3：额外收获",
+      "noAction": "如常进行，但维希不会执行额外收获。"
     }
   },
   "turnPlayer": {
-    "title": "Player",
-    "takeTurn": "Take your turn."
+    "title": "玩家",
+    "takeTurn": "执行你的行动。"
   },
   "turnBot": {
-    "title": "V.I.C.I",
-    "reset": "V.I.C.I does a <b>Reset</b>.",
-    "resetAdvance": "Advance the <i>phase indicator</i> to the next <i>reset space</i>.",
-    "removeAttributeChip": "Remove <b>attribute chip</b> {chip}.",
-    "removeIncomeChip": "Remove <b>income chip</b> {chip}."
+    "title": "维希",
+    "reset": "维希执行一次 <b>重制</b>。",
+    "resetAdvance": "将<i>阶段标记</i>移动到下一个<i>重置格</i>。",
+    "removeAttributeChip": "移除 <b>属性芯片</b> {chip}.",
+    "removeIncomeChip": "移除 <b>收入芯片</b> {chip}."
   },
   "roundEnd": {
-    "title": "Era End",
+    "title": "时代结束",
     "sitePhase": {
-      "title": "5) Site phase",
-      "botNotAffected": "V.I.C.I is never affected by face-up sites."
+      "title": "阶段 5：地点阶段",
+      "botNotAffected": "维系的文明<b>不受</b>任何正面朝上的地点的影响。"
     },
     "feedingPhase": {
-      "title": "6) Feeding phase",
+      "title": "阶段 6：喂养阶段",
       "feedTribes": {
-        "title": "A) V.I.C.I Feeding phase:",
-        "oneProvisioningMarker": "In territories with 1 provision marker, 1 tribe on an encampment is fed. Priority:",
-        "twoProvisioningMarkers": "In territories with 2 provision markers, all tribes on encampments + 1 tribe in wilderness (strong over weak) are fed.",
-        "weakenTribes": "All other tribes are weakened."
+        "title": "步骤 A：维希喂养阶段：",
+        "oneProvisioningMarker": "首先，为维希执行<b> 1 次补给行动</b>，然后检查有维希部的每个区域中每个维希的部落是否得到喂养，在每个正好有 1 个补给标记的区域中，位于<b>营地</b>的 1 个维希部落视为得到喂养。",
+        "twoProvisioningMarkers": "在每个有至少 2 个补给标记的区域中，位于营地的所有维希部落以及 1 个位于荒野的维希部落都视为得到喂养（多个位于荒野的部落，健康的优先于虚弱的)。",
+        "weakenTribes": "维希的所有其他部落必须遭受弱化（健康的躺倒、虚弱的移除。）。"
       },
-      "scoreStrongTribes": "B) Score V.I.C.I's strong tribes."
+      "scoreStrongTribes": "步骤 B：维希如常通过自己的健康部落获得分数。"
     },
     "eventPhase": {
-      "title": "7) Event phase",
-      "adjustWeather": "A) V.I.C.I is never affected by the weather.",
+      "title": "阶段 7：事件阶段",
+      "adjustWeather": "步骤 A：维希从来<b>不会</b>受到天气影响。",
       "resolveEvent": {
-        "title": "B) V.I.C.I never gets event bonuses.",
-        "compareBot": "However, you must take V.I.C.I into account when determining whether you receive the bonus of an event that requires a majority or lead.",
-        "eventsDetails": "Event F4, F6, F16, F17, F19 or F20",
+        "title": "步骤 B：维希从来<b>不会</b>得到事件奖励。",
+        "compareBot": "但是当确定你是否会获得需要领先或最多才能得到的奖励时，必须将维希纳入计算。",
+        "eventsDetails": "事件 F4, F6, F16, F17, F19 or F20",
         "majorityModal": {
-          "title": "V.I.C.I Event",
-          "event": "Event",
-          "achievement": "Achievement"
+          "title": "事件多数检定表",
+          "event": "事件",
+          "achievement": "数量"
         }
       },
-      "scoreCategory": "C) Score current category for V.I.C.I.",
+      "scoreCategory": "步骤 C：维希如常按照当前时代计分类型获得分数。",
       "startingCivilization": {
-        "title": "D) Determine starting civilization:",
-        "nextStartPlayer": "Next start player:"
+        "title": "步骤 D：决定起始文明：",
+        "nextStartPlayer": "下一个时代起始文明："
       }
     },
     "incomePhase": {
-      "title": "8) Income phase",
-      "scoreStatues": "B) Score V.I.C.I's statues."
+      "title": "阶段 8：收入阶段",
+      "scoreStatues": "步骤 B：维希进行雕像计分。"
     },
-    "noNextStartPlayer": "Please determine the next start player."
+    "noNextStartPlayer": "请决定下个时代起始文明！！！"
   },
   "gameEnd": {
-    "title": "Game End",
+    "title": "游戏结束",
     "finalScoring": {
-      "title": "Final Scoring",
-      "categories": "Score 9 final scoring categories (you and V.I.C.I)",
-      "consoleStages": "Score the stage partition of the console (only you)",
-      "consoleResearchCards": "Score point bonuses from research cards in the console (only you)"
+      "title": "终局计分",
+      "categories": "为你和维希进行 9 种终局计项目计分。",
+      "consoleStages": "对控制台进行计分（仅限玩家）。",
+      "consoleResearchCards": "对有分数奖励的研究牌进行计分（仅限玩家）。"
     },
-    "winCondition": "If you managed to have more success points in total than V.I.C.I, congratulations on a successful <i>Civolution</i>!"
+    "winCondition": "如果您最终的得分高于维希，祝贺您进行了一场成功的 <i>文明演化</i>!"
   },
   "endRoundButton": {
-    "title": "End Action Phase",
-    "confirm": "Do you want to end the action phase?"
+    "title": "结束行动阶段",
+    "confirm": "是否确认结束行动阶段？"
   },
   "sideBar": {
-    "round": "Era {round}",
-    "cards": "Cards:",
-    "resetCount": "{count} Reset | {count} Resets"
+    "round": "时代 {round}",
+    "cards": "卡牌：",
+    "resetCount": "{count} 重置 | {count} 重置"
   },
   "rules": {
     "action": {
       "advanceFavor": {
-        "title": "Agera track",
-        "instruction": "Advance V.I.C.I’s disc 1 step on the Favor of Agera track (if possible)."
+        "title": "阿格拉恩惠轨",
+        "instruction": "在阿格拉恩惠轨上将维希的圆片推动 1 格（如果可能）。"
       },
       "advanceScoringCategory": {
-        "title": "Progress Track",
-        "instruction": "Advance V.I.C.I’s disc that many steps on the depicted progress track.",
-        "threshold": "Whenever one of V.I.C.I’s discs crosses a bonus threshold that gives success points as a track bonus, V.I.C.I receives those points. All other track bonuses are ignored for V.I.C.I.",
-        "exceedTrack": "If V.I.C.I’s disc is already on space 12 of this track, this action gives V.I.C.I the usual 2 success points instead."
+        "title": "进程轨",
+        "instruction": "在进程轨上将维希的圆片推进所示数量格。",
+        "threshold": "每当维希的圆片越过给予分数作为轨道奖励的奖励门槛，维希会获得该分数。对于其他轨道奖励，维希会直接忽略。",
+        "exceedTrack": "如果维希的圆片已经位于该轨道的“ 12 ”格，该行动如常改为给予维希 2 分。"
       },
       "gainActivationDie": {
-        "title": "Activation Die",
-        "instruction": "V.I.C.I receives an activation die (per the usual rules)."
+        "title": "激活骰",
+        "instruction": "维希获得 1 个激活骰（按照通常规则）。"
       },
       "gainFateDie": {
-        "title": "Fate Die",
-        "instruction": "V.I.C.I receives a fate die (per the usual rules)."
+        "title": "命运骰",
+        "instruction": "维希获得 1 个命运骰（按照通常规则）。"
       },
       "gainVp": {
-        "title": "Success Points",
-        "instruction": "V.I.C.I gains the depicted number of success points."
+        "title": "分数",
+        "instruction": "维希获得所示分数。"
       },
       "performMigration": {
-        "title": "Migration",
+        "title": "迁徙",
         "initialTerritory": {
-          "title": "Initial Territory",
-          "minimumRequirement": "Choose a territory where V.I.C.I has at least 2 tribes, at least 1 of them is strong.",
-          "twoTribesAvailability": "<b>Attention:</b> If there is no such territory, first perform a procreation.",
-          "performProcreation": "Perform Procreation",
+          "title": "出发区域",
+          "minimumRequirement": "维希在该区域拥有至少 2 个部落且其中至少 1 个健康。",
+          "twoTribesAvailability": "<b>注意：</b> 如果没有满足条件区域，则首先为维希执行 1 次繁育行动，然后再执行确认出发区域。",
+          "performProcreation": "繁育行动",
           "tribePriorityList": {
-            "title": "Pick a strong tribe:",
-            "wilderness": "from wilderness",
-            "fireEncampment": "from fire encampment",
-            "anyEncampment": "from any encampment"
+            "title": "健康部落优先级列表：",
+            "wilderness": "来自荒野",
+            "fireEncampment": "来自篝火营地",
+            "anyEncampment": "来自任意营地"
           }
         },
         "destinationTerritory": {
-          "title": "Destination Territory",
-          "minimumRequirement": "Choose a land territory, adjacent to the initial territory.",
-          "priorityRequirement": "<b>Priority</b>: Territory with V.I.C.I's fewest tribes (none = fewest).",
-          "moveTribe": "Move the determined strong tribe there and let it settle on an encampment:",
-          "undevelopedTerritory": "If the tribe enters an undeveloped territory, flip its material tile face up but do not place a marker there."
+          "title": "到达区域",
+          "minimumRequirement": "选择 1 个与出发区域相邻的陆地区域。",
+          "priorityRequirement": "<b>优先级</b>: 维希部落最少的区域（任意区域没有维希的部落，将其视为最少）。",
+          "moveTribe": "将确定的出发区域的健康部落移动到到达区域，并令其定居到该区域的 1 个营地中：",
+          "undevelopedTerritory": "如果维希的部落进入到一个未开发的区域，将该区域的材料板块翻至正面朝上，但不放置原材料标记。"
         }
       },
       "performProcreation": {
-        "title": "Procreation",
-        "minimumRequirement": "Choose a territory with at least 1 of V.I.C.I's tribes.",
-        "priorityRequirement": "<b>Priority</b>: Territory with at least 1 free encampment.",
-        "territoryDetermined": "Once you’ve determined the territory, add a tribe from V.IC.I’s supply to that territory by letting it settle on an encampment:",
-        "migrationCheck": "<b>Important</b>: Check after each procreation that you carry out for V.I.C.I whether <b>all</b> encampments in <b>all</b> territories where V.I.C.I has tribes are <b>solely</b> occupied by V.I.C.I’s own tribes (and thus, none are free or occupied by your tribes). If so, immediately perform 1 migration in addition.",
-        "performMigration": "Perform Migration"
+        "title": "繁育",
+        "minimumRequirement": "选择至少拥有 1 个维希部落的区域。",
+        "priorityRequirement": "<b>优先级</b>: 至少拥有 1 个空置营地的区域。",
+        "territoryDetermined": "一旦你已经确定了区域，从维希得到供应堆中将 1 个部落放置到该区域的 1 个营地上定居：",
+        "migrationCheck": "<b>重要提示</b>:为维希执行每次繁育行动后，检查维希有部落的<b>所有</b>区域中，是否<b>所有</b>营地都<b>完全</b>被维希的部落所占据（即 没有任何营地被你占据或空置）。如果是的话，为维希立即额外执行<b> 1 次迁徙行动</b>。",
+        "performMigration": "迁徙行动"
       },
       "performProvision": {
-        "title": "Provision",
-        "minimumRequirement": "Choose a territory, where V.I.C.I has at least one tribe.",
-        "priorityRequirement": "<b>Priority</b>: Territories with the fewest provision markers (0 = fewest) and V.I.C.I's most tribes.",
-        "placeMarker": "Place a provision marker in the territory.",
-        "blockFarmSpace": "Once a territory has two provision markers, they block the farm building space (if it's still unoccupied)."
+        "title": "补给",
+        "minimumRequirement": "从有至少 1 个维希部落的区域中确定 1 个区域。",
+        "priorityRequirement": "<b>优先级</b>: 该区域拥有最少的补给标记（任意区域没有补给标记，将其视为最少）。但在这些区域中，只有维希部落<b>最多</b>的区域满足条件。",
+        "placeMarker": "从维希供应区将 1 个标记躺倒放置到该区域的农场建造格旁作为补给标记。",
+        "blockFarmSpace": "一旦该补给标记是该地区建造的第 2 个补给标记，则将这两个补给标记一同放置在该农场建造格上，阻挡该格建造农场（如果该格尚未建造农场）。"
       },
       "placeEvolutionMarker": {
-        "title": "Evolution",
-        "instruction": "V.I.C.I gains Evolution marker (these are counted automatically by the application)."
+        "title": "演化网格",
+        "instruction": "维希获得 1 个演化标记（该行动由本助手进行自动记录计算）。"
       },
       "placeHuntingToken": {
-        "title": "Hunting Token",
-        "minimumRequirement": "Choose a territory, where V.I.C.I has at least one tribe, and where there is no hunting token yet.",
-        "priorityRequirement": "<b>Priority</b>: Territories, where <b>you</b> also have a tribe.",
-        "placeToken": "Place a hunting token in the territory."
+        "title": "狩猎指示物",
+        "minimumRequirement": "选择 1 个维希至少拥有 1 个部落且没有狩猎指示物的区域。",
+        "priorityRequirement": "<b>优先级</b>: 同时拥有<b>你</b>和维希部落的<b>最佳</b>狩猎区域",
+        "placeToken": "放置 1 个狩猎指示物到该区域。"
       },
       "placeProsperityMarker": {
-        "title": "Prosperity",
-        "instruction": "V.I.C.I gains Prosperity marker (these are counted automatically by the application)."
+        "title": "繁荣网格",
+        "instruction": "维希获得 1 个繁荣标记（该行动由本助手进行自动记录计算）。"
       },
       "placeStatue": {
-        "title": "Statue",
-        "instruction": "Place a marker from V.IC.I’s supply as a statue onto the Building ground in the large Water territory.",
-        "unlimited": "There is no limit to the number of statues V.I.C.I can have there."
+        "title": "雕像",
+        "instruction": "从维希供应堆拿取 1 个标记，将其作为雕像放置到被大片水流区域环绕的建造点上。",
+        "unlimited": "维希在此处的雕像数量没有限制。"
       },
       "removeCard": {
-        "title": "Remove Research Card",
-        "instruction": "Remove the top card from the <i>face-up research stack</i> of the depicted type.",
-        "refill": "If the face-up stack is empty afterwards, refill it at as usual."
+        "title": "移除研究卡",
+        "instruction": "从所示类型的 <i>正面朝上研究牌堆</i>移除最顶部的卡牌。",
+        "refill": "如果在这之后正面朝上的研究牌堆空置，则按照通常规则进行补充。"
       },
       "revealSites": {
-        "title": "Reveal Sites",
-        "minimumRequirement": "Choose a territory, where V.I.C.I has at least one tribe.",
-        "priorityRequirement": "<b>Priority</b>: Territories adjacent to the most face-down sites.",
-        "reveal": "Reveal all face-down sites adjacent to the territory.",
-        "gainVP": "V.I.C.I gains the success points printed on the front of each site that is revealed. Besides this, V.I.C.I’s civilization is never affected by any face-up sites."
+        "title": "探索地点",
+        "minimumRequirement": "从有至少 1 个维希部落的区域中确定 1 个区域。",
+        "priorityRequirement": "<b>优先级</b>: 相邻最多正面朝下地点的区域。",
+        "reveal": "将与该区域相邻的所有正面朝下的地点翻开。",
+        "gainVP": "维希获得在该行动中翻开的额每个地点上印制的分数，除此之外，维希从<b>不会</b>受到任何正面朝上地点的影响。"
       }
     },
     "priority": {
       "encampment": {
-        "freeFire": "Free fire encampment",
-        "freeAny": "Any free encampment",
-        "playerFire": "Fire encampment with one of <b>your</b> tribes",
-        "playerWeakAny": "Any encampment with one of <b>your</b> weak tribes",
-        "playerStrongAny": "Any encampment with one of <b>your</b> strong tribes",
-        "botStrongFire": "Fire encampment with one of V.I.C.I's strong tribes",
-        "botStrongAny": "Any encampment with one of V.I.C.I's strong tribes",
-        "botWeakFire": "Fire encampment with one of V.I.C.I's weak tribes",
-        "botWeakAny": "Any encampment with one of V.I.C.I's weak tribes",
-        "notWeakened": "<b>Attention:</b> V.I.C.I's tribes are <b>not</b> weakened when they displace tribes from encampments!"
+        "freeFire": "空置篝火营地",
+        "freeAny": "任意空置营地",
+        "playerFire": "有<b>你</b>部落的篝火营地",
+        "playerWeakAny": "有<b>你</b>虚弱部落的任意营地",
+        "playerStrongAny": "有<b>你</b>健康部落的任意营地",
+        "botStrongFire": "有维希健康部落的篝火营地",
+        "botStrongAny": "有维希健康部落的任意营地",
+        "botWeakFire": "有维希虚弱部落的篝火营地",
+        "botWeakAny": "有维希虚弱部落的任意营地",
+        "notWeakened": "<b>注意：</b>维希的部落在驱逐营地中的部落时，<b>不会</b>遭受弱化。"
       }
     }
   },
   "difficultyLevel": {
-    "1": "Level 1 - Beginner",
-    "2": "Level 2 - Moderate",
-    "3": "Level 3 - Medium",
-    "4": "Level 4 - Advanced",
-    "5": "Level 5- Expert"
+    "1": "难度等级 1 - 初出茅庐",
+    "2": "难度等级 2 - 小试牛刀",
+    "3": "难度等级 3 - 崭露头角",
+    "4": "难度等级 4 - 炉火纯青",
+    "5": "难度等级 5 - 登峰造极"
   },
   "player": {
-    "player": "Player",
-    "bot": "V.I.C.I"
+    "player": "玩家",
+    "bot": "维希"
   },
   "territory": {
-    "forest": "Forest",
-    "grassland": "Grassland",
-    "hills": "Hills",
-    "swamp": "Swamp",
-    "mountains": "Mountains",
-    "desert": "Desert",
-    "water": "Water"
+    "forest": "森林",
+    "grassland": "草原",
+    "hills": "丘陵",
+    "swamp": "沼泽",
+    "mountains": "山脉",
+    "desert": "沙漠",
+    "water": "水流"
   },
   "notfound": {
-    "title": "Not Found"
+    "title": "找不到"
   },
   "action": {
-    "playGame": "Play Game",
-    "startGame": "Start Game",
-    "next": "Next",
-    "nextRound": "Next Round",
-    "abortGame": "Abort Game",
-    "abortGameConfirm": "Aborting the running game - are you sure?",
-    "endGame": "End Game",
-    "endGameConfirm": "End this game and return to home screen - are you sure?",
-    "cancel": "Cancel",
-    "backToHome": "Back to Home",
-    "back": "Back",
-    "close": "Close",
-    "ok": "OK",
-    "reset": "Reset"
+    "playGame": "玩游戏",
+    "startGame": "开始游戏",
+    "next": "下一步",
+    "nextRound": "下一个回合",
+    "abortGame": "掀桌！！！",
+    "abortGameConfirm": "你确认要放弃正在进行的游戏吗？",
+    "endGame": "结束游戏",
+    "endGameConfirm": "你确定要结束游戏返回主页吗？",
+    "cancel": "容我三思",
+    "backToHome": "回到主页",
+    "back": "返回",
+    "close": "关闭",
+    "ok": "喏",
+    "reset": "重置"
   },
   "footer": {
-    "credits": "Credits"
+    "credits": "鸣谢"
   },
   "serviceWorkerUpdatedRefresh": {
-    "title": "Refresh Application",
-    "notice": "The application was updated - do you want to refresh to use the latest version?"
+    "title": "刷新助手应用程序",
+    "notice": "应用程序已更新-是否要刷新以使用最新版本？"
   }
 }
